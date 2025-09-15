@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.file-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: 200px;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 2px;
+}
+
+.section:hover{
+  background-color: rgb(240, 234, 234);
+}
+
+
+
+.icon{
+  margin-right: 5px;
+}
+
+.children{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+
+
+
+.action-section{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
